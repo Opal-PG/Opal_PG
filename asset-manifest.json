@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Opal_PG/static/css/main.292f12e4.css",
+    "main.js": "/Opal_PG/static/js/main.3e613a86.js",
+    "static/js/453.ad0c8846.chunk.js": "/Opal_PG/static/js/453.ad0c8846.chunk.js",
+    "static/media/img4.jpg": "/Opal_PG/static/media/img4.8457f5fd59a83dd626a9.jpg",
+    "static/media/img1.jpg": "/Opal_PG/static/media/img1.6fe5759adc744a047478.jpg",
+    "static/media/img6.jpg": "/Opal_PG/static/media/img6.c9062657124fd766e67f.jpg",
+    "static/media/img12.png": "/Opal_PG/static/media/img12.ce7b0e294481fd797656.png",
+    "static/media/img11.jpg": "/Opal_PG/static/media/img11.817393daf9457f0e7f19.jpg",
+    "static/media/img10.jpg": "/Opal_PG/static/media/img10.4e0d903301afb087c37c.jpg",
+    "static/media/img2.jpg": "/Opal_PG/static/media/img2.fc915ffc605edc54f622.jpg",
+    "static/media/img3.jpg": "/Opal_PG/static/media/img3.9e8e22fcb7bca457e32b.jpg",
+    "static/media/img5.jpg": "/Opal_PG/static/media/img5.cc0b69133cc00a9bf4c2.jpg",
+    "static/media/img8.jpg": "/Opal_PG/static/media/img8.8f2c3dc2aae840b4dab5.jpg",
+    "static/media/img9.jpg": "/Opal_PG/static/media/img9.ee76bb318895b97c8f4a.jpg",
+    "static/media/img7.jpg": "/Opal_PG/static/media/img7.7ea43450a2830566e6de.jpg",
+    "static/media/logo.png": "/Opal_PG/static/media/logo.326dcaf1070db8b7c0e6.png",
+    "static/media/Flex.jpg": "/Opal_PG/static/media/Flex.81f494f490ad40fa57e3.jpg",
+    "static/media/Hero.jpg": "/Opal_PG/static/media/Hero.b262826626c04e28bb6a.jpg",
+    "static/media/gallery.jpg": "/Opal_PG/static/media/gallery.22db7a266e1c73c8406d.jpg",
+    "index.html": "/Opal_PG/index.html",
+    "main.292f12e4.css.map": "/Opal_PG/static/css/main.292f12e4.css.map",
+    "main.3e613a86.js.map": "/Opal_PG/static/js/main.3e613a86.js.map",
+    "453.ad0c8846.chunk.js.map": "/Opal_PG/static/js/453.ad0c8846.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.292f12e4.css",
+    "static/js/main.3e613a86.js"
+  ]
+}
