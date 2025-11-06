@@ -1,0 +1,223 @@
+/* ✅ Navbar styling */
+.main-navbar {
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+  z-index: 1000;
+}
+
+.main-navbar.transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.main-navbar.scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* ✅ Logo */
+.main-logo {
+  width: 150px;
+  height: auto;
+  margin-left: 200px;
+}
+.main-logo-h{
+    width: 100px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+/* ✅ Nav Links */
+.nav-link-custom {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  color: #000000 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #007bff !important;
+}
+
+/* ✅ Hero Section */
+.my-background-div {
+  position: relative;
+  background: url('../assets/images/Hero.jpg') center/cover no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+/* ✅ Overlay — light white 20% + dimmed bg 40% look */
+.my-background-div::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(253, 253, 253, 0.6);
+  backdrop-filter: brightness(0.8);
+  z-index: 1;
+}
+
+.hero-content, .hero-image {
+  position: relative;
+  z-index: 2;
+  color: #000;
+  margin-left: 200px;
+}
+
+.hero-image img {
+  border-radius: 51px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 8px 10px rgba(0, 0, 0, 0.25);
+  margin-right: 100px;
+}
+
+
+/* ✅ Hero Text */
+.hero-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1B5E20;
+  text-shadow:0px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.hero-subheading {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color: #2F2F2F;
+}
+
+
+
+/*  */
+.call-btn {
+  background-color: #2ECC71; /* You can match your theme */
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.call-btn:hover {
+  background-color: #946655;
+  transform: scale(1.03);
+}
+.call-icon{
+  font-size: 30px;
+}
+
+
+/* ✅ Floating circles shared style */
+.hero-floating-circles {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: -30px; /* Moves circles up so they overlap both sections */
+  z-index: 5; /* Keep them above the hero background but below navbar */
+}
+
+.hero-floating-circles .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Lottie Animation Styling */
+.lottie {
+  width: 100px;
+  height: 100px;
+  pointer-events: none;
+}
+.lottie-w{
+    width: 150px;
+    height: 150px;
+    pointer-events: none;
+}
+
+/* Individual Circle Customizations  */
+.circle-1 {
+  background: linear-gradient(135deg, #ffcc70, #ff8177);
+}
+.circle-2 {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+}
+.circle-3 {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-floating-circles {
+    gap: 30px;
+    margin-top: -50px;
+  }
+  .hero-floating-circles .circle {
+    width: 100px;
+    height: 100px;
+    font-size: 14px;
+  }
+
+  .lottie {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .nav-link-custom {
+    font-size: 20px;
+  }
+
+  .main-logo {
+    width: 80px;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+  .main-logo{
+    margin-left: 0px;
+  }
+  .main-logo-h{
+    margin-left: 0px;
+  }
+  .hero-content{
+    margin-left: 0px;
+    margin-top: 200px;
+  }
+  .hero-image img{
+    margin-right: 0px;
+  }
+  .main-navbar.transparent {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .my-background-div{
+    margin-top: -200px;
+  }
+}

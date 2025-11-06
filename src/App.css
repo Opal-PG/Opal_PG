@@ -1,38 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 🌟 Smooth scrolling between sections */
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* 🌟 Page fade-in animation (only for content, not navbar) */
+.main-content {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.2s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* 🌟 Section animations */
+.hero-content,
+.hero-image,
+.hero-floating-circles {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease-out forwards;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-content {
+  animation-delay: 0.2s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.hero-image {
+  animation-delay: 0.5s;
+}
+
+.hero-floating-circles {
+  animation-delay: 0.8s;
+}
+
+/* ✅ Keep navbar stable */
+.main-navbar {
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+}
+
+/* 🌈 Hover transitions for icons/buttons */
+button, .lottie {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover, .lottie:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🌟 Keyframes */
+@keyframes fadeIn {
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

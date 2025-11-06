@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "icon": "FaWifi",
+    "title": "Wi-Fi",
+    "description": "Stay connected effortlessly with fast, reliable internet for work, study, or entertainment anytime you need it."
+  },
+  {
+    "id": 2,
+    "icon": "FaSnowflake",
+    "title": "Fridge",
+    "description": "Keep your favorite snacks, fresh ingredients, and beverages safe and cool in a clean, personal or shared fridge."
+  },
+  {
+    "id": 3,
+    "icon": "FaVideo",
+    "title": "CCTV Camera",
+    "description": "24/7 surveillance ensures your safety, giving you peace of mind while you relax at home."
+  },
+  {
+    "id": 4,
+    "icon": "FaTint",
+    "title": "Mineral Water",
+    "description": "Fresh and clean mineral water is always available, so you can stay hydrated with ease."
+  },
+  {
+    "id": 5,
+    "icon": "FaUserShield",
+    "title": "Security Guard",
+    "description": "Trained personnel maintain a secure and welcoming environment at all times."
+  },
+  {
+    "id": 6,
+    "icon": "FaTshirt",
+    "title": "Washing Machine",
+    "description": "Convenient and hygienic washing and drying facilities to keep your clothes fresh and clean effortlessly."
+  },
+  {
+    "id": 7,
+    "icon": "FaHotjar",
+    "title": "Oven/Induction",
+    "description": "Modern kitchen appliances available for cooking, reheating, and enjoying home-like meals at your convenience."
+  },
+  {
+    "id": 8,
+    "icon": "FaParking",
+    "title": "Parking",
+    "description": "Safe, well-organized parking spaces for your vehicles, giving you one less worry."
+  },
+  {
+    "id": 9,
+    "icon": "FaBolt",
+    "title": "Generator Backup",
+    "description": "Enjoy uninterrupted electricity even during power outages, keeping your daily life smooth and hassle-free."
+  },
+  {
+    "id": 10,
+    "icon": "FaBookReader",
+    "title": "Library",
+    "description": "A serene reading and study space with a collection of books to enrich your knowledge and relax your mind."
+  },
+  {
+    "id": 11,
+    "icon": "FaBroom",
+    "title": "Daily Room Cleaning",
+    "description": "Rooms and common areas are cleaned and maintained daily, creating a comfortable, hygienic living space."
+  },
+  {
+    "id": 12,
+    "icon": "FaUtensils",
+    "title": "Live Kitchen",
+    "description": "Savor fresh, home-cooked meals prepared three times a day in our hygienic kitchen — nourishing and tasty."
+  },
+  {
+    "id": 13,
+    "icon": "FaLeaf",
+    "title": "Hygienic Atmosphere",
+    "description": "A clean, well-maintained, and calm environment where you can breathe easy and feel at home."
+  },
+  {
+    "id": 14,
+    "icon": "FaArrowAltCircleUp",
+    "title": "Lift",
+    "description": "Convenient elevator access ensures easy movement between floors, making your stay comfortable and effortless."
+  },
+  {
+    "id": 15,
+    "icon": "FaHotTub",
+    "title": "Geyser",
+    "description": "Enjoy warm water whenever you need it, providing comfort and a homely feeling every day."
+  },
+  {
+    "id": 16,
+    "icon": "FaLaptop",
+    "title": "Co-Working Space",
+    "description": "A quiet, comfortable space designed for focus and productivity, perfect for studying or remote work."
+  }
+]

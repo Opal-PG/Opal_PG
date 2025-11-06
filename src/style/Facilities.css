@@ -1,0 +1,26 @@
+.facilities-section {
+  background-color: #FAF3E0; 
+  position: relative;
+  padding-top: 120px; 
+  margin-top:-30px
+}
+
+.facilities-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2C3E50;
+}
+
+.facilities-subheading {
+  font-size: 1.1rem;
+  color: #2C3E50;
+}
+
+.facility-item img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,45 @@
+.feedback-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feedback-section h2 {
+  color: #202124;
+  font-weight: 600;
+}
+
+.feedback-section p {
+  color: #5f6368;
+  margin-bottom: 25px;
+}
+
+/* Google Review Button */
+.google-review-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #202124;
+  border: 1px solid #dadce0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(60,64,67,0.3);
+  transition: all 0.3s ease;
+}
+
+.google-review-btn:hover {
+  background-color: #f1f3f4;
+  transform: translateY(-2px);
+}
+
+/* Google “G” Logo inside button */
+.google-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}

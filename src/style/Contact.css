@@ -1,0 +1,50 @@
+.contact-section {
+  background: linear-gradient(to right, #b19a91 0%, #4b413d 100%);
+  padding: 60px 0;
+  color: #ffffff;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.contact-info h5 {
+  font-weight: 600;
+  margin-top: 15px;
+  color: #fff;
+}
+
+/* Google Map Container */
+.map-container {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Optional overlay for darker look */
+.map-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(75, 65, 61, 0.2);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .contact-section {
+    text-align: center;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+}
